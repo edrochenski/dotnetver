@@ -1,3 +1,5 @@
+#pragma clang diagnostic ignored "-Wdeclaration-after-statement"
+#pragma clang diagnostic ignored "-Wunsafe-buffer-usage"
 #pragma comment(lib, "Advapi32")
 #pragma comment(lib, "Kernel32")
 #include <stdio.h>
